@@ -1,0 +1,47 @@
+[
+    {
+        "nev": "Somlói galuska",
+        "ido": 60,
+        "leiras": "így készül a Somlói galuska",
+        "kep": "kepek/somloi.png",
+        "hozzavalok": [{
+                "Csoki": "1 tábla"
+            }, {
+                "Tojás": "6 db"
+            }, {
+                "Liszt": "1 kg"
+            }],
+        "kategoria":"Édesség",
+        "ar": 1200
+    },
+    {
+        "nev": "Pörkölt",
+        "ido": 70,
+        "leiras": "így készül a pörkölt",
+        "kep": "kepek/porkolt.png",
+        "hozzavalok": [{
+                "hús": "1 kg"
+            }, {
+                "Hagyma": "2 fej"
+            }, {
+                "Paradicsom": "1 db"
+            }, {
+                "Paprika": "3 db"
+            }],
+        "kategoria":"Főétel",
+        "ar":500
+    },
+    {
+        "nev": "Leves",
+        "ido": 10,
+        "leiras": "így készül a leves",
+        "kep": "kepek/leves.png",
+        "hozzavalok": [{
+                "víz": "1 liter"
+            },{
+                "Liszt": "1 kanál"
+            }],
+        "kategoria":"Leves",
+        "ar":1000
+    }
+]

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Li Richárd</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="stilus.css" rel="stylesheet" type="text/css"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="js.js" type="text/javascript"></script>
+    </head>
+    <body>
+        
+        <main>
+            <header>
+                <h1>Receptkönyv</h1>
+            </header>
+            <nav>
+                
+                <select>
+                    <option id="0">Név</option>
+                    <option id="1">Idő</option>
+                    <option id="2">Leírás</option>
+                    <option id="3">Hozzávalók</option>
+                    <option id="4">Kategória</option>
+                    <option id="5">Ár</option>
+                   
+                </select>
+            </nav>
+            <article>
+                <!--táblázat-->
+            </article>
+            <aside>
+                 <label for="receptNev">Keresés</label>
+                 <input type="text" name="receptNev" id="keresettSzoveg" placeholder=""><br>
+                   <input type="button" id="keres" value="keres">
+                 
+                 
+                <h2>Új recept</h2>
+                <form>
+                    <fieldset>
+                        <div class="urlapelem">
+                            <div>
+                                <label for="receptNev">Termék neve</label>
+                                <input type="text" name="receptNev" id="receptNev" placeholder=""><br>
+                            </div>
+
+
+                            <div>
+                                <label for="ido">Ido</label>
+                                <input type="text" name="ido" id="ido" placeholder=""><br>
+                            </div>
+
+                            <div>
+                                <label for="ar">Ár</label>
+                                <input type="text" name="ar" id="ar" placeholder=""><br>
+                            </div>
+                            <div>
+                                <label for="hozzavalok">Ár</label>
+                                <input type="text" name="hozzavalok" id="ar" placeholder=""><br>
+                            </div>
+                        </div> 
+                        <div id="leirasDiv">
+                            <label for="leiras">Leírás</label>
+                            <textarea name="leiras" id="leiras" placeholder="Adja meg a recept leírását"></textarea>
+                        </div>
+                        
+                    </fieldset>
+                    <input type="button" id="ok" value="OK">
+                </form>
+            </aside>
+            <section>
+                <!--idejön majd a kiválasztott recept.-->
+                
+                <div id="bal">
+                    <<<
+                </div>
+                <div id="recept">
+                    
+                </div>
+                <div id="jobb">
+                    >>>
+                </div>
+            </section>
+            <footer>
+                Li Richárd
+            </footer>
+        </main>
+    </body>
+</html>
